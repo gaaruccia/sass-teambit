@@ -1,0 +1,24 @@
+header {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header .logo img {
+  position: absolute;
+  width: 2%;
+  top: 36%;
+  left: 1%;
+}
+
+header .logo h1 {
+  padding-left: 45px;
+}
+
+header .menu ul li {
+  display: inline-block;
+}
+
