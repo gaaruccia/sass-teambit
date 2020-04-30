@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 header {
   max-width: 1180px;
   margin: 0 auto;
@@ -5,20 +11,123 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  border-bottom: 1px solid black;
 }
 
 header .logo img {
   position: absolute;
   width: 2%;
-  top: 36%;
+  top: 33%;
   left: 1%;
 }
 
 header .logo h1 {
   padding-left: 45px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 header .menu ul li {
   display: inline-block;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+main {
+  padding-top: 70px;
+}
+
+main section {
+  padding-bottom: 48px;
+}
+
+main section .conteiner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section .conteiner h2 {
+  flex-basis: 50%;
+  font-size: 50px;
+  padding-bottom: 24px;
+}
+
+main section .conteiner .p-size {
+  font-size: 26px;
+  padding-bottom: 24px;
+}
+
+main section .conteiner button {
+  padding: 12px;
+}
+
+main section .conteiner .bottom-button {
+  padding-top: 24px;
+}
+
+main section .conteiner img {
+  width: 100%;
+}
+
+main section .conteiner2 {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main section .conteiner2 .cont-t {
+  display: flex;
+  justify-content: center;
+}
+
+main section .conteiner2 .cont-t h3 {
+  padding-top: 48px;
+  padding-bottom: 24px;
+  font-size: 26px;
+}
+
+main section .conteiner2 .cont-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 860px;
+  margin: 0 160px;
+  padding-bottom: 48px;
+}
+
+main section .conteiner2 .ridimensionamento {
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
+  margin: 20px auto;
+}
+
+main section .conteiner2 .ridimensionamento img {
+  width: 100%;
+}
+
+main section .conteiner2 .cont-before {
+  display: flex;
+  justify-content: center;
+}
+
+main section .conteiner2 .cont-before img {
+  width: 25%;
+  padding-bottom: 48px;
+}
+
+main section .conteiner2 .linea {
+  height: 3px;
+  width: 100%;
+  background-color: grey;
+}
+
+main .colore {
+  background-color: #FFE7D2;
 }
 
