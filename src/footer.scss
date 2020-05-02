@@ -1,0 +1,36 @@
+footer{
+  .cont-footer{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    .cont-logo{
+      display: flex;
+      padding-top: 120px;
+      padding-bottom: 120px;
+      img{
+        margin-right: 46px;
+        width: 68px;
+      }
+      span{
+        max-width: 200px;
+        font-size: 19px;
+      }
+    }
+    .cont-conct{
+      max-width: 60%;
+      padding-top: 120px;
+      padding-bottom: 120px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      .padding{
+        padding-right: 48px;
+        li{
+          padding-bottom: 12px;
+        }
+      }
+    }
+  }
+}

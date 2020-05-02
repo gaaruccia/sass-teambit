@@ -18,7 +18,11 @@ main{
         padding-bottom: 24px;
       }
       button{
-        padding: 12px;
+        padding: 7px;
+      }
+      .or{
+        padding-left: 12px;
+        padding-right: 12px;
       }
       .bottom-button{
         padding-top: 24px;
@@ -56,6 +60,10 @@ main{
         margin: 20px auto;
         img{
           width: 100%;
+          padding-bottom: 12px;
+        }
+        .riduci{
+          width: 50%;
         }
       }
       .cont-before{
@@ -75,5 +83,91 @@ main{
   }
   .colore{
     background-color: #FFE7D2;
+    .prefooter{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title-4-phase{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3{
+          font-size: 35px;
+          padding-top: 48px;
+          padding-bottom: 48px;
+        }
+        button{
+          padding: 7px;
+        }
+        .or{
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+      }
+      .bottom-button{
+        padding-top: 24px;
+      }
+      .cont-cubo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 48px;
+        .cubo{
+          background-color: white;
+          border: 1px black solid;
+          max-width: 476px;
+          p{
+            padding: 48px;
+            font-size: 23px;
+          }
+        }
+        .cont-butt{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .distanza{
+    padding-top: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .dist-cont-right{
+      padding-right: 100px;
+      display: flex;
+      justify-content: flex-end;
+      max-width: 43%;
+      img{
+        width: 100%
+      }
+    }
+    .dist-cont-left{
+      max-width: 420px;
+      margin-right: 14%;
+      h4{
+        padding-bottom: 24px;
+      }
+      p{
+        padding-bottom: 24px;
+      }
+      img{
+        width: 75%;
+      }
+    }
+    .dist-cont-left2{
+      max-width: 420px;
+      margin-left: 14%;
+      h4{
+        padding-bottom: 24px;
+      }
+      p{
+        padding-bottom: 24px;
+      }
+      img{
+        width: 75%;
+      }
+    }
   }
 }
