@@ -38,6 +38,13 @@ header .menu ul li {
   padding-bottom: 12px;
 }
 
+header .menu ul li button {
+  color: blue;
+  padding: 6px;
+  border: blue 1px solid;
+  border-radius: 10%;
+}
+
 main {
   padding-top: 70px;
 }
@@ -67,6 +74,10 @@ main section .conteiner .p-size {
 
 main section .conteiner button {
   padding: 7px;
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+  border: 1px solid black;
 }
 
 main section .conteiner .or {
@@ -165,6 +176,10 @@ main .colore .prefooter .title-4-phase h3 {
 
 main .colore .prefooter .title-4-phase button {
   padding: 7px;
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+  border: 1px solid black;
 }
 
 main .colore .prefooter .title-4-phase .or {
